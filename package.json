@@ -1,0 +1,26 @@
+{
+  "name": "contacts-lab",
+  "version": "1.0.0",
+  "description": "A simple address book API that saves people's names: first, last and other; and their phone numbers. People should be able to have multiple phone numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EviCoach/contacts-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EviCoach/contacts-lab/issues"
+  },
+  "homepage": "https://github.com/EviCoach/contacts-lab#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  }
+}
