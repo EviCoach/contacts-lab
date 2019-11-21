@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const contacts = require('./routes/contacts');
 require('dotenv').config();
 
 const app = express();
@@ -21,7 +22,9 @@ try {
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log('MongoDB database connection established successfully');
-})
+});
+
+app.use('/contacts', contacts);
 
 
 
